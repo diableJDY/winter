@@ -1,6 +1,6 @@
 package com.common.winter.service;
 
-import com.common.winter.vo.User;
+import com.common.winter.dto.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;

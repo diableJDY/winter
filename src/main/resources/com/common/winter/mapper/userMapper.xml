@@ -4,7 +4,7 @@
 
 <mapper namespace="com.common.winter.mapper.UserMapper">
 
-    <select id="readUser" parameterType="String" resultType="com.common.winter.vo.User">
+    <select id="readUser" parameterType="String" resultType="com.common.winter.dto.User">
       SELECT * FROM user WHERE username = #{username}
     </select>
 
@@ -12,7 +12,7 @@
       SELECT authority_name FROM authority WHERE username = #{username}
     </select>
 
-    <insert id="createUser" parameterType="com.common.winter.vo.User">
+    <insert id="createUser" parameterType="com.common.winter.dto.User">
       INSERT INTO user (username, password, name, isAccountNonExpired, isAccountNonLocked, isCredentialsNonExpired, isEnabled) VALUES (#{username}, #{password}, #{name}, #{isAccountNonExpired}, #{isAccountNonLocked}, #{isCredentialsNonExpired}, #{isEnabled})
     </insert>
 

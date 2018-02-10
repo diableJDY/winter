@@ -1,7 +1,7 @@
 package com.common.winter.service;
 
 import com.common.winter.mapper.UserMapper;
-import com.common.winter.vo.User;
+import com.common.winter.dto.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

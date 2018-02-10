@@ -1,4 +1,4 @@
-package com.common.winter.vo;
+package com.common.winter.dto;
 
 
 import org.springframework.security.core.GrantedAuthority;

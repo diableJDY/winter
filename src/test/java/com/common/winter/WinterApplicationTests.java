@@ -1,7 +1,7 @@
 package com.common.winter;
 
 import com.common.winter.service.UserService;
-import com.common.winter.vo.User;
+import com.common.winter.dto.User;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

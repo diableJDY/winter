@@ -1,6 +1,6 @@
 package com.common.winter.mapper;
 
-import com.common.winter.vo.User;
+import com.common.winter.dto.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.security.core.GrantedAuthority;
 
